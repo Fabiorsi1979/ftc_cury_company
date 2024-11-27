@@ -7,8 +7,8 @@ st.set_page_config(
     page_title='Home',
 )
 
-#image = Image.open( "../img/ds.png" )
-#st.logo( '')
+image = Image.open( "../img/ds.png" )
+st.logo(image)
 
 st.sidebar.markdown( """___""" )
 st.sidebar.markdown( '# Cury Company' )

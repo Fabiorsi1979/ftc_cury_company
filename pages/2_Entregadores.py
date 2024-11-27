@@ -100,9 +100,8 @@ df1 = clean_code ( df )
 
 st.header( 'Marketplace - Visão Entregadores')
 
-image_path = 'img/ds.png'
-image = Image.open( image_path)
-st.logo( image )
+image = Image.open( "img/DS.png" )
+st.logo(image)
         
 st.sidebar.markdown( '# Cury Company' )
 st.sidebar.markdown( '## Fatest Delivery in Town' )

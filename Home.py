@@ -7,7 +7,7 @@ st.set_page_config(
     page_title='Home',
 )
 
-image = Image.open( "/img/ds.png" )
+image = Image.open( "img/ds.png" )
 st.logo(image)
 
 st.sidebar.markdown( """___""" )
